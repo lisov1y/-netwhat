@@ -20,3 +20,17 @@ With an IPv4 IP address, there are five classes of available IP ranges: Class A,
 |Class C         |`192.0.1.1 to 223.255.254.254` |Supports 254 hosts on each of 2 million networks.|
 |Class D         |`224.0.0.0 to 239.255.255.255` |Reserved for multicast groups.|
 |Class E         |`240.0.0.0 to 254.255.255.254` |Reserved for future use, or research and development purposes.|
+##  What is TCP?
+The Transmission Control Protocol (TCP) is one of the main protocols of the Internet protocol suite. It originated in the initial network implementation in which it complemented the Internet Protocol (IP). Therefore, the entire suite is commonly referred to as TCP/IP. TCP provides reliable, ordered, and error-checked delivery of a stream of octets (bytes) between applications running on hosts communicating via an IP network. Major internet applications such as the World Wide Web, email, remote administration, and file transfer rely on TCP, which is part of the Transport Layer of the TCP/IP suite. SSL/TLS often runs on top of TCP.
+## What is UDP?
+In computer networking, the User Datagram Protocol (UDP) is one of the core members of the Internet protocol suite. The protocol was designed by David P. Reed in 1980 and formally defined in RFC 768. With UDP, computer applications can send messages, in this case referred to as datagrams, to other hosts on an Internet Protocol (IP) network. Prior communications are not required in order to set up communication channels or data paths.
+## What are the network layers?
+The Open System Interconnection (OSI) model defines a networking framework to implement protocols in seven layers.
+![](https://www.webopedia.com/imagesvr_ce/8023/7-layers-of-osi-icon.jpg)
+- Layer 7 (Application): Most of what the user actually interacts with is at this layer. Web browsers and other internet-connected applications (like Skype or Outlook) use Layer 7 application protocols.
+- Layer 6 (Presentation): This layer converts data to and from the Application layer. In other words, it translates application formatting to network formatting and vice versa. This allows the different layers to understand each other.
+- Layer 5 (Session): This layer establishes and terminates connections between devices. It also determines which packets belong to which text and image files.
+- Layer 4 (Transport): This layer coordinates data transfer between system and hosts, including error-checking and data recovery.
+- Layer 3 (Network): This layer determines how data is sent to the receiving device. It’s responsible for packet forwarding, routing, and addressing.
+- Layer 2 (Data Link): Translates binary (or BITs) into signals and allows upper layers to access media.
+- Layer 1 (Physical): Actual hardware sits at this layer. It transmits signals over media.
