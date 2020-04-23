@@ -15,8 +15,8 @@ With an IPv4 IP address, there are five classes of available IP ranges: Class A,
 
 |Class           |Address range                  |Supports                     |
 |----------------|-------------------------------|-----------------------------|
-|Class A         |`1.0.0.1 to 126.255.255.254	`  |'Supports 16 million hosts on each of 127 networks.'|
+|Class A         |`1.0.0.1 to 126.255.255.254	`  |Supports 16 million hosts on each of 127 networks.|
 |Class B         |`128.1.0.1 to 191.255.255.254` |Supports 65,000 hosts on each of 16,000 networks.|
 |Class C         |`192.0.1.1 to 223.255.254.254` |Supports 254 hosts on each of 2 million networks.|
 |Class D         |`224.0.0.0 to 239.255.255.255` |Reserved for multicast groups.|
-|Class E         |`240.0.0.0 to 254.255.255.254` Reserved for future use, or research and development purposes.|
+|Class E         |`240.0.0.0 to 254.255.255.254` |Reserved for future use, or research and development purposes.|
